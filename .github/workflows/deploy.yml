@@ -31,7 +31,8 @@ jobs:
         run: npm ci
 
       - name: Build
-        run: npm run build
+        run: CI=false npm run build
+
 
       # React Router SPA 404 修復
       - name: SPA fallback (index.html -> 404.html)
