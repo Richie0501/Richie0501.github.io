@@ -14,7 +14,6 @@ export default function ContactPage() {
     const phone = '04 2203 8088';
     const email = 'is.eason0975@gmail.com';
     const lineUrl = 'https://lin.ee/yourline'; // 換成實際 LINE 加好友連結
-    const googleMapSrc = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.1234567890123!2d120.659...`; // 用實際 embed URL 換掉
 
     return (
         <Container className="py-3 contact-page">

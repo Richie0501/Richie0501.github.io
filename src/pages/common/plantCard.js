@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import tree1 from '../../assets/images/tree1.png';
 import tree2 from '../../assets/images/tree2.png';
+import useDeviceType from '../hook/useDeviceType';
 
 // 範例資料，你可以改成自己的圖片與文字
 const slides = [
@@ -28,6 +29,9 @@ const slides = [
 export default function PlantCarousel() {
   const [index, setIndex] = useState(0);
   const total = slides.length;
+  const deviceType = useDeviceType();
+  console.log(deviceType);
+  
 
   const prev = () => setIndex((index + total - 1) % total);
   const next = () => setIndex((index + 1) % total);
@@ -37,7 +41,7 @@ export default function PlantCarousel() {
 
   return (
     <section className="plant-carousel-section">
-      <div className="plant-slide">
+      <div className={`plant-slide ${deviceType}`}>
         <div className="plant-image">
           <img src={slide.img} alt={slide.title} />
         </div>
