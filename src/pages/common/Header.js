@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Navbar, Container, Nav, Button } from 'react-bootstrap';
 import { NavLink, useLocation } from 'react-router-dom';
-import Logo from '../../assets/images/chengtai.png';
+import Logo from '../../assets/images/chengtai.jpeg';
 
 export default function Header() {
   const location = useLocation();
@@ -12,10 +12,19 @@ export default function Header() {
   const linkClass = ({ isActive }) =>
     isActive ? 'nav-link active' : 'nav-link';
 
+  const linkStyle = { color: 'white', fontSize: '24px' };
+
   return (
     <header>
-      <Navbar expand="lg" bg="light" variant="light" className="py-3">
-        <Container>
+<Navbar expand="lg" className="p-0 border-0 bg-transparent">
+  <Container
+    style={{
+      background: "rgb(185 45 22)", // 紅色
+      borderRadius: "0 0 30px 30px",
+      marginBottom: "30px",
+      padding: "0.75rem 1rem"
+    }}
+  >
           <Navbar.Brand as={NavLink} to="/" end className="d-flex align-items-center">
             <img className="logo" src={Logo} alt="logo" />
           </Navbar.Brand>
@@ -23,16 +32,16 @@ export default function Header() {
           <Navbar.Toggle aria-controls="main-nav" />
           <Navbar.Collapse id="main-nav">
             <Nav className="ms-auto align-items-center">
-              <Nav.Link as={NavLink} to="/specialization" className={linkClass}>
+              <Nav.Link as={NavLink} to="/specialization" className={linkClass} style={linkStyle}>
                 公司沿革
               </Nav.Link>
-              <Nav.Link as={NavLink} to="/plants" className={linkClass}>
+              <Nav.Link as={NavLink} to="/plants" className={linkClass} style={linkStyle}>
                 服務項目
               </Nav.Link>
-              <Nav.Link as={NavLink} to="/actualcase" className={linkClass}>
+              <Nav.Link as={NavLink} to="/actualcase" className={linkClass} style={linkStyle}>
                 實際案例
               </Nav.Link>
-              <Nav.Link as={NavLink} to="/news" className={linkClass}>
+              <Nav.Link as={NavLink} to="/news" className={linkClass} style={linkStyle}>
                 最新消息
               </Nav.Link>
 

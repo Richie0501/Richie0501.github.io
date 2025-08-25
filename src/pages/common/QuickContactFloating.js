@@ -5,7 +5,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faPhone,
   faXmark,
-  faCirclePlus
+  faCirclePlus,
+  faComment
 } from '@fortawesome/free-solid-svg-icons';
 import { faFacebookF, faLine } from '@fortawesome/free-brands-svg-icons';
 
@@ -89,7 +90,7 @@ export default function QuickContactFloating({
           aria-label="開啟聯絡列"
           title="開啟聯絡列"
         >
-          <FontAwesomeIcon icon={faCirclePlus} />
+          <FontAwesomeIcon icon={faComment} />
         </button>
       )}
     </div>

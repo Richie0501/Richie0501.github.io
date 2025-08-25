@@ -13,32 +13,32 @@ import {
 
 const services = [
   {
-    title: 'Product Design',
+    title: '特定工廠登記',
     desc:  'mollis nunc sed id semper risus in hendrerit gravida rutrum quisque non tellus orci ac',
     icon:  faPencilRuler,
   },
   {
-    title: 'App Design',
+    title: '農牧用地變更建築用地',
     desc:  'mollis nunc sed id semper risus in hendrerit gravida rutrum quisque non tellus orci ac',
     icon:  faMobileAlt,
   },
   {
-    title: 'Web Design',
+    title: '申請特定目的事業用地',
     desc:  'mollis nunc sed id semper risus in hendrerit gravida rutrum quisque non tellus orci ac',
     icon:  faLaptopCode,
   },
   {
-    title: 'Development',
+    title: '露營場申請',
     desc:  'mollis nunc sed id semper risus in hendrerit gravida rutrum quisque non tellus orci ac',
     icon:  faCode,
   },
   {
-    title: 'Illustration',
+    title: '更正編定',
     desc:  'mollis nunc sed id semper risus in hendrerit gravida rutrum quisque non tellus orci ac',
     icon:  faPaintBrush,
   },
   {
-    title: 'Motion',
+    title: '國有地申租及申購',
     desc:  'mollis nunc sed id semper risus in hendrerit gravida rutrum quisque non tellus orci ac',
     icon:  faFilm,
   },

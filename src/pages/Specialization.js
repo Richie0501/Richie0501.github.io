@@ -1,5 +1,6 @@
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import Specialization from './common/specialCard';
+import PlantCarousel from './common/plantCard';
 
 
 const timeline = [
@@ -46,7 +47,7 @@ export default function SpecializationPage() {
         </p>
       </header>
 
-      <Specialization />
+      <PlantCarousel />
       {/* 時間軸 */}
       <section aria-label="沿革時間軸" className="mb-5">
         <h3 className="h4 mb-3">關鍵里程碑</h3>

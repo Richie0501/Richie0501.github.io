@@ -9,7 +9,6 @@ export default function Home() {
     <Container className="mb-3">
       <Banner />
       <Specialization />
-      <PlantCarousel />
     </Container>
   );
 }
