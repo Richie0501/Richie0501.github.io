@@ -11,8 +11,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function ContactPage() {
     const address = '403台灣臺中市西區台灣大道一段728號';
-    const phone = '04 2203 8088';
-    const email = 'is.eason0975@gmail.com';
+    const phone = ['04 2203 8088', '04 2203 8099'];
+    const email = 'chengtai83121@gmail.com';
     const lineUrl = 'https://lin.ee/yourline'; // 換成實際 LINE 加好友連結
 
     return (
@@ -20,7 +20,7 @@ export default function ContactPage() {
             <header className="mb-3">
                 <h2 className="fw-bold">聯絡我們</h2>
                 <p className="text-muted">
-                有土地開發或農地變更的需求嗎？歡迎聯絡我們，誠泰專精土地變更申請，提供農地開發、農地變建地、露營區申請、特定工廠登記業務輔導等多元服務。我們熟悉土地規定與都市計畫流程，協助您掌握土地最適用法規。無論是土地變更申請或開發諮詢，專業團隊皆能提供完整規劃與協辦。
+                有土地開發或農地變更的需求嗎？歡迎聯絡我們，誠泰專精土地變更申請，提供農地開發、農地變建地、露營區申請、特定工廠登記業務輔導等多元服務。我們熟悉土地相關法規與都市計畫流程，讓您了解土地最新的資訊及法規。無論是土地變更申請或開發諮詢，我們專業的團隊皆能提供完整的規劃與協助，讓客戶在不動產的運用上能夠無往不利。
                 </p>
             </header>
             <Row className="g-4 align-items-start">

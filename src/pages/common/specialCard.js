@@ -23,7 +23,7 @@ const services = [
     icon:  faMobileAlt,
   },
   {
-    title: '申請特定目的事業用地',
+    title: '申請變更特定目的事業用地',
     desc:  'mollis nunc sed id semper risus in hendrerit gravida rutrum quisque non tellus orci ac',
     icon:  faLaptopCode,
   },

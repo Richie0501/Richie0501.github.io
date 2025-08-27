@@ -6,27 +6,28 @@ import CaseStudyCard from './common/caseStudyCard';
 const caseStudies = [
   {
     id: 'case1',
-    title: '非都市農地變更為工業用地',
-    challenge: '權屬分散、原為農牧用地，變更風險高。',
+    title: '台中市大雅區自強段1742地號',
+    challenge: '原為農牧用地、有申請農舍、變更難度中等。',
     outcomes: [
-      { label: '變更核准速度', value: '快 30%' },
-      { label: '土地價值提升', value: '2 倍以上' },
+      { label: '變更核准速度', value: '送件起 6 個月' },
+      { label: '土地價值提升', value: '4 倍以上' },
       { label: '行政異議', value: '0 件' },
     ],
-    testimonial: '流程清楚、風險被前置處理，我們提前動工、心安很多。',
-    tags: ['農地變更', '工業用地', '合規'],
+    testimonial: '流程解釋得很清楚，且該怎麼做都有事先推擬好，讓我放心把案件全權交由你們辦理',
+    tags: ['農地變更', '甲種建築用地'],
   },
   {
     id: 'case2',
-    title: '工廠擴廠用地登記',
-    challenge: '目標用地用途模糊、先前申請被退件。',
+    title: '苗栗縣三義鄉魚藤坪段189-1地號',
+    challenge: '原有農牧用地、舊有房屋座落、更正難度高。',
     outcomes: [
-      { label: '申請周期', value: '縮短至 3.5 個月' },
-      { label: '退件風險', value: '降 40%' },
-      { label: '登記通過', value: '一次成功' },
+      { label: '變更核准速度', value: '送件起算 7 個月' },
+      { label: '申退件風險', value: '降 70 %' },
+      { label: '土地價值提升', value: '3 倍以上' },
+      
     ],
-    testimonial: '把複雜拆成有序步驟，擴廠不再靠運氣。',
-    tags: ['工廠登記', '流程優化', '跨機關'],
+    testimonial: '在送件前已將所需之資料調閱得比我原本給的文件更加詳細，雖案件有波折，但依然順利地過件了',
+    tags: ['更正編定', '丙種建築用地'],
   },
   {
     id: 'case3',
