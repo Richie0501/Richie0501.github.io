@@ -12,7 +12,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 export default function ContactPage() {
     const address = '403台灣臺中市西區台灣大道一段728號';
     const phone = '04 2203 8088';
-    const email = 'is.eason0975@gmail.com';
+    const email = 'chengtai83121@gmail.com';
     const lineUrl = 'https://lin.ee/yourline'; // 換成實際 LINE 加好友連結
 
     return (

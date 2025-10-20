@@ -14,7 +14,7 @@ import {
 const services = [
   {
     title: '特定工廠登記',
-    desc:  'mollis nunc sed id semper risus in hendrerit gravida rutrum quisque non tellus orci ac',
+    desc:  '依工廠管理輔導法第28條以及相關之建築規則辦理特定工廠登記',
     icon:  faIndustry,
   },
   {
@@ -24,22 +24,22 @@ const services = [
   },
   {
     title: '申請特定目的事業用地',
-    desc:  'mollis nunc sed id semper risus in hendrerit gravida rutrum quisque non tellus orci ac',
+    desc:  '免費評估土地是否可依非都市土地使用管制規則及非都市土地變更執行要點等，辦理變更特定目的事業用地',
     icon:  faFileContract,
   },
   {
     title: '露營場申請',
-    desc:  'mollis nunc sed id semper risus in hendrerit gravida rutrum quisque non tellus orci ac',
+    desc:  '運用露營場管理要點、水土保持法以及相關建築技術規則等，申請合法使用之露營區',
     icon:  faCampground,
   },
   {
     title: '更正編定',
-    desc:  'mollis nunc sed id semper risus in hendrerit gravida rutrum quisque non tellus orci ac',
+    desc:  '依照各縣市政府使用編定公告日期以前之舊有建物，依法提供證明文件將土地及建物合法化',
     icon:  faEdit,
   },
   {
     title: '國有地申租及申購',
-    desc:  'mollis nunc sed id semper risus in hendrerit gravida rutrum quisque non tellus orci ac',
+    desc:  '依國有財產法等相關法規，辦理國有地申租及申購',
     icon:  faFileSignature,
   },
 ];

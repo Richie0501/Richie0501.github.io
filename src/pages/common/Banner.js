@@ -46,9 +46,9 @@ const defaultSlides = [
     id: 1,
     src: require("../../assets/images/banner1.png"),
     alt: "Prosperix 成功案例 A",
-    title: "我們把財務流程從 5 天縮短到 1 天",
-    subtitle: "自動化對帳與可視化報表，CFO 決策更即時。",
-    meta: "A 公司 / CFO John Doe",
+    title: "公司於113年辦理核准用地計劃",
+    subtitle: "誠信辦理，成功過件",
+    meta: "林俊甫",
   },
   {
     id: 2,
