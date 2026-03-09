@@ -1,0 +1,55 @@
+# robots.txt for 誠泰地產管理有限公司
+# https://chengtai-realestate.com/robots.txt
+
+User-agent: *
+Allow: /
+
+# 主要頁面
+Allow: /
+Allow: /#about
+Allow: /#services
+Allow: /#cases
+Allow: /#contact
+
+# 靜態資源
+Allow: /static/
+Allow: /images/
+Allow: *.css
+Allow: *.js
+Allow: *.jpg
+Allow: *.jpeg
+Allow: *.png
+Allow: *.gif
+Allow: *.webp
+
+# 排除開發相關檔案
+Disallow: /build/
+Disallow: /node_modules/
+Disallow: /src/
+Disallow: /.git/
+Disallow: /.env
+Disallow: /package.json
+Disallow: /package-lock.json
+
+# SEO 增強指令
+# Sitemap: https://chengtai-realestate.com/sitemap.xml
+
+# 搜尋引擎特殊指令
+User-agent: Googlebot
+Crawl-delay: 1
+
+User-agent: Bingbot
+Crawl-delay: 1
+
+User-agent: Baiduspider
+Crawl-delay: 2
+
+# 阻擋不良機器人
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
